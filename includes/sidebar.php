@@ -1,35 +1,36 @@
 <?php
-  require('session.php');
-  confirm_logged_in();
+require('session.php');
+confirm_logged_in();
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <style type="text/css">
-#overlay {
-  position: fixed;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 2;
-  cursor: pointer;
-}
-#text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 50px;
-  color: white;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-</style>
+    #overlay {
+      position: fixed;
+      display: none;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    #text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 50px;
+      color: white;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+  </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,7 +51,7 @@
 </head>
 
 <body id="page-top">
-          
+
   <!-- Page Wrapper -->
   <div id="wrapper">
 
@@ -68,8 +69,9 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
         <a class="nav-link" href="index.php">
-        
-          <span>Home</span></a>
+          <ion-icon name="home"></ion-icon>
+          <span class="ml-2">Home</span>
+        </a>
       </li>
       <!-- Divider -->
       <hr class="sidebar-divider">
@@ -81,40 +83,43 @@
       <!-- Tables Buttons -->
       <li class="nav-item">
         <a class="nav-link" href="customer.php">
-         
-          <span>Customer</span></a>
+        <ion-icon name="person"></ion-icon>
+          <span class="ml-2">Customer</span></a>
       </li>
 
       <li class="nav-item">
         <a class="nav-link" href="Employee.php">
-        
-          <span>Employee</span></a>
+        <ion-icon name="people"></ion-icon>
+          <span class="ml-2">Employee</span></a>
       </li>
-      
+
       <li class="nav-item">
         <a class="nav-link" href="spare_parts.php">
-         
-          <span>Spare Parts</span></a>
+        <ion-icon name="cog"></ion-icon>
+          <span class="ml-2">Spare Parts</span></a>
       </li>
-      
-     
-      
+
+
+
       <li class="nav-item">
         <a class="nav-link" href="transaction.php">
-         
-          <span>Transaction</span></a>
+        <ion-icon name="receipt"></ion-icon>
+          <span class="ml-2">Transaction</span></a>
       </li>
-      
+
       <li class="nav-item">
         <a class="nav-link" href="Supplier.php">
-       
-          <span>Supplier</span></a>
+        <ion-icon name="rocket"></ion-icon>
+          <span class="ml-2">Supplier</span></a>
       </li>
-      
-      
+
+
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
     </ul>
     <!-- End of Sidebar -->
     <?php include_once 'topbar.php'; ?>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

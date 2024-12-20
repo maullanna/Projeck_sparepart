@@ -18,7 +18,8 @@
 
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link" href="pos.php" role="button">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">POS</span>
+              <ion-icon name="bag-handle"></ion-icon> 
+                <span class="ml-2 mr-2 d-none d-lg-inline text-gray-600 small">POS</span>
               </a>
             </li>
 
@@ -64,3 +65,6 @@
           
         <!-- Begin Page Content -->
         <div class="container-fluid">
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
