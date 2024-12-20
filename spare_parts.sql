@@ -86,7 +86,6 @@ CREATE TABLE `employee` (
 --
 -- Dumping data for table `employee`
 --
-
 INSERT INTO `employee` (`EMPLOYEE_ID`, `FIRST_NAME`, `LAST_NAME`, `GENDER`, `EMAIL`, `PHONE_NUMBER`, `JOB_ID`, `LOCATION_ID`) VALUES
 (1, 'pavan', 'patil', 'Male', 'pavan@gmail.com', '9876567865', 1, 113),
 (5, 'karan', 'nakum', 'Male', 'karan@gmail.com', '89763546334', 1, 163),

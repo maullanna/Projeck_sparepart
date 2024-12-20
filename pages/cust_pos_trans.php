@@ -9,18 +9,14 @@ include'../includes/sidebar.php';
                 $result = mysqli_query($db, $query) or die (mysqli_error($db));
       
                 while ($row = mysqli_fetch_assoc($result)) {
-                          $Aa = $row['TYPE'];
-                   
-if ($Aa=='User'){
-           
+                          $Aa = $row['TYPE'];          
+if ($Aa=='User'){       
              ?>    <script type="text/javascript">
                       //then it will be redirected
                       alert("Restricted Page! You will be redirected to POS");
                       window.location = "pos.php";
                   </script>
-             <?php   }
-                         
-           
+             <?php   }       
 }   
             ?>
           <!-- Page Content -->

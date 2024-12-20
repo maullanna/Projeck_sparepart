@@ -52,10 +52,10 @@ if ($Aa=='User'){
                         echo '<tr>';
                         echo '<td>'. $row['FIRST_NAME'].'</td>';
                         echo '<td>'. $row['LAST_NAME'].'</td>';
-						echo '<td>'. $row['GENDER'].'</td>';
-						echo '<td>'. $row['EMAIL'].'</td>';
-						echo '<td>'. $row['PHONE_NUMBER'].'</td>';
-						echo '<td>'. $row['JOB_TITLE'].'</td>';
+					             	echo '<td>'. $row['GENDER'].'</td>';
+					            	echo '<td>'. $row['EMAIL'].'</td>';
+					            	echo '<td>'. $row['PHONE_NUMBER'].'</td>';
+					            	echo '<td>'. $row['JOB_TITLE'].'</td>';
 						
 						
 
